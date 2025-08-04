@@ -3,6 +3,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react-swc';
 
 export default defineConfig({
-  plugins: [react()],
-  base: '/Skill-3/'
+  base: "/Skill-3/",  // must match repo name
+  ...
 });
+
